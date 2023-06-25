@@ -1,0 +1,118 @@
+.play-conteners{
+    margin-top: 50px;
+    padding-left: 2%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+.side-video-list img{
+    width: 100%;
+    display: flex;
+}
+.side-video-list .small-tumb{
+    flex-basis: 49%;
+}
+.side-video-list .vid-info .vid-info-o{
+    flex-basis: 49%;    
+}
+
+.owner{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.owner div{
+flex: 1;
+line-height: 18px;
+}
+.owner{
+    width: 40px;
+    border: 50%;
+    margin: 15px;
+}
+
+.owner div p{
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.owner div span{
+    font-size: 13px;
+    color:#5a5a5a ;
+}
+
+.vid-info-o {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 100px;
+    flex-basis: 35%;
+    text-align: left;
+}
+
+.vid-info-o h2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.vid-info{
+    background-color: #f2f2f2;
+
+}
+.episodes {
+
+    flex-basis: 100%;
+}
+
+.episodes h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.episodes ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.episodes ul li {
+    margin-right: 10px;
+}
+
+.episodes ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.episodes select {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.episodes select option {
+    font-weight: bold;
+}
+
+
+
+
+
